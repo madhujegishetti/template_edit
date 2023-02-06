@@ -1,0 +1,36 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 3.0 License
+
+Name       : Big Business
+Description: A two-column, fixed-width design with a bright color scheme.
+Version    : 1.0
+Released   : 20120210
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+#wrapper{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid red;
+	height: 100vh;
+
+
+}
+.right{
+	border: 2px solid red;
+	margin: 2px 2px;
+	width: 50%;
+}
+
+.left{
+	border: 2px solid red;
+	margin: 2px 2px;
+	width: 50%;
+}
